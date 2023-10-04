@@ -1,0 +1,12 @@
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\bin\Debug\net6.0\MarpasEngine.deps.json
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\bin\Debug\net6.0\MarpasEngine.dll
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\bin\Debug\net6.0\MarpasEngine.pdb
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\obj\Debug\net6.0\MarpasEngine.csproj.AssemblyReference.cache
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\obj\Debug\net6.0\MarpasEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\obj\Debug\net6.0\MarpasEngine.AssemblyInfoInputs.cache
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\obj\Debug\net6.0\MarpasEngine.AssemblyInfo.cs
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\obj\Debug\net6.0\MarpasEngine.csproj.CoreCompileInputs.cache
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\obj\Debug\net6.0\MarpasEngine.dll
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\obj\Debug\net6.0\refint\MarpasEngine.dll
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\obj\Debug\net6.0\MarpasEngine.pdb
+C:\Users\Marek\source\repos\MarpasEngine\MarpasEngine\obj\Debug\net6.0\ref\MarpasEngine.dll
