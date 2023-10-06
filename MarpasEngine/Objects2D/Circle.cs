@@ -5,12 +5,12 @@ namespace MarpasEngine.Objects2D
 {
     public struct Circle
     {
-        public Vector2 Position = Vector2.Zero;
+        public Vector2 Center = Vector2.Zero;
         public float Radius = 0f;
 
-        public Circle(Vector2 position, float radius)
+        public Circle(Vector2 center, float radius)
         {
-            Position = position;
+            Center = center;
             Radius = radius;
         }
 
@@ -22,11 +22,21 @@ namespace MarpasEngine.Objects2D
 
         public bool Intersects(Circle other)
         {
-            if (Vector2.DistanceSquared(Position, other.Position) < (Radius * Radius) + (other.Radius * other.Radius))
+            if (Vector2.DistanceSquared(Center, other.Center) < (Radius * Radius) + (other.Radius * other.Radius))
             {
                 return true;
             }
             return false;
+        }
+
+        public static float Distance(Circle circle1, Circle circle2)
+        {
+            return Vector2.Distance(circle1.Center, circle2.Center) - (circle1.Radius + circle2.Radius);
+        }
+
+        public static float DistanceSquared(Circle circle1, Circle circle2)
+        {
+            throw new NotImplementedException();
         }
     }
 }
