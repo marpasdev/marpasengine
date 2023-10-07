@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace MarpasEngine
+namespace MarpasEngine.Screen
 {
     public static class Camera
     {
@@ -8,8 +8,8 @@ namespace MarpasEngine
 
         public static void UpdateTranslation(Vector2 position, GraphicsDeviceManager graphics)
         {
-            float x = (graphics.PreferredBackBufferWidth / 2) - position.X;
-            float y = (graphics.PreferredBackBufferHeight / 2) - position.Y;
+            float x = graphics.PreferredBackBufferWidth / 2 - position.X;
+            float y = graphics.PreferredBackBufferHeight / 2 - position.Y;
 
             Translation = Matrix.CreateTranslation(x, y, 0f);
         }
