@@ -28,7 +28,6 @@ namespace MarpasEngine.Screen
         {
             content = new ContentManager(game.Services);
             content.RootDirectory = game.Content.RootDirectory;
-            LoadContent();
         }
 
         public virtual void LoadContent() { }
