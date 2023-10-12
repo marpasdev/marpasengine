@@ -11,7 +11,8 @@ namespace MarpasEngine.Screen
             get { return activeScene; }
             set
             {
-                activeScene.UnloadContent();
+                if (activeScene is not null)
+                    activeScene.UnloadContent();
                 activeScene = value;
                 activeScene.Initialize();
                 activeScene.LoadContent();
@@ -20,7 +21,10 @@ namespace MarpasEngine.Screen
 
         public static void SwitchScene(Scene newScene)
         {
-            activeScene.UnloadContent();
+            if (activeScene is not null)
+            {
+                activeScene.UnloadContent();
+            }
             activeScene = newScene;
             activeScene.Initialize();
             activeScene.LoadContent();

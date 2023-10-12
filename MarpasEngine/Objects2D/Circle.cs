@@ -33,10 +33,5 @@ namespace MarpasEngine.Objects2D
         {
             return Vector2.Distance(circle1.Center, circle2.Center) - (circle1.Radius + circle2.Radius);
         }
-
-        public static float DistanceSquared(Circle circle1, Circle circle2)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

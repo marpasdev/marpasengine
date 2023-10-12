@@ -2,19 +2,16 @@
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MarpasEngine.Screen
 {
     public abstract class Scene
     {
         protected Game game;
+        protected GraphicsDeviceManager graphics;
         protected ContentManager content;
 
-        public Scene(Game game)
+        public Scene(Game game, GraphicsDeviceManager graphics)
         {
             if (game is null)
             {
@@ -22,6 +19,7 @@ namespace MarpasEngine.Screen
             }
 
             this.game = game;
+            this.graphics = graphics;
         }
 
         public virtual void Initialize()
