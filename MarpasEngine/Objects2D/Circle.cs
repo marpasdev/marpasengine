@@ -21,8 +21,8 @@ namespace MarpasEngine.Objects2D
         public float Area => MathF.PI * Radius * Radius;
 
         public bool Intersects(Circle other)
-        {
-            if (Vector2.DistanceSquared(Center, other.Center) < (Radius * Radius) + (other.Radius * other.Radius))
+        {                  
+            if (Vector2.Distance(Center, other.Center) < Radius + other.Radius)
             {
                 return true;
             }
