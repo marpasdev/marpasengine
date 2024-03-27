@@ -50,7 +50,7 @@ namespace MarpasEngine.Objects2D
         {
             Vector2 deltaPosition = Position - position;
 
-            Rotation = (float)Math.Atan2(deltaPosition.Y, deltaPosition.X) - MathHelper.PiOver2;
+            Rotation = (float)Math.Atan2(deltaPosition.Y, deltaPosition.X);
         }
     }
 }
