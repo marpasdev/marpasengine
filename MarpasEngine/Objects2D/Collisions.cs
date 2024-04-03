@@ -22,5 +22,14 @@ namespace MarpasEngine.Objects2D
             }
             return false;
         }
+
+        public static bool CheckPerPixel(Sprite obj1, Sprite obj2)
+        {
+            throw new NotImplementedException();
+
+            /*
+            
+            */
+        }
     }
 }
