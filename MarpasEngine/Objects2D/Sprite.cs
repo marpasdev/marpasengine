@@ -7,14 +7,14 @@ namespace MarpasEngine.Objects2D
     public class Sprite
     {
         #region Properties
-        public Texture2D Texture;
-        public Vector2 Position;
-        public Color Color = Color.White;
-        public float Rotation = 0f;
-        public Vector2 Origin = Vector2.Zero;
-        public Vector2 Scale = Vector2.One;
-        public SpriteEffects SpriteEffects = SpriteEffects.None;
-        public float LayerDepth = 1f;
+        public Texture2D Texture { get; set }
+        public Vector2 Position { get; set }
+        public Color Color { get; set } = Color.White;
+        public float Rotation { get; set } = 0f;
+        public Vector2 Origin { get; set } = Vector2.Zero;
+        public Vector2 Scale { get; set } = Vector2.One;
+        public SpriteEffects SpriteEffects { get; set } = SpriteEffects.None;
+        public float LayerDepth { get; set } = 1f;
         #endregion
 
         public Sprite(Texture2D texture)
